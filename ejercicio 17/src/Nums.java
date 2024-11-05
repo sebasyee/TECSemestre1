@@ -17,7 +17,6 @@ public class Nums {
 		while (!(num==0));
 		System.out.println("Multiplos de 3: "+i);
 		System.out.println(allNums);
-
 	}
 
 }
