@@ -11,7 +11,7 @@ public class NumTelefono {
                 numTel = sc.nextLine();
                 
                 if (numTel.length() != 10) {
-                    System.out.println("El número ingresado no tiene 10 dígitos. Inténtalo de nuevo.");
+                    System.out.println("El número ingresado no es valido. Inténtalo de nuevo.");
                 }
             } 
             while (numTel.length() != 10);
