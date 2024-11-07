@@ -12,7 +12,7 @@ public class Digitos {
         for (int i = 0; i < digitos; i++) {
             caracteres = text.charAt(i);
 
-            if (Character.isAlphabetic(caracteres)) {
+            if (Character.isDigit(caracteres)) {
                 numDigitos++;
             }
         }
