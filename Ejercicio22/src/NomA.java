@@ -6,7 +6,7 @@ public class NomA {
 		String nom,letra;
 		int a=0;
 		
-		for(int i=0;i<3;i++) {
+		for(int i=0;i<10;i++) {
 			System.out.println("Ingresa un nombre");
 			nom = sc.nextLine();
 		    
